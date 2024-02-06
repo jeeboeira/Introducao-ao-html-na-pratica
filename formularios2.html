@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários 2</title>
+</head>
+<body>
+    <h1>Formulários 2:</h1> <h2>Checkbox and Radio button</h2>
+    <p>Checkbox é a box com maracador de verificado<br>Radio é o marcador em forma de círculo</p>
+    
+    <h1>Formulário de pedido pizza</h1>
+    <form method="post">
+        <!--não vou usar comentários aqui, mas direto na página que é onde quero olhar-->
+        <h6>utilizar o metodo post para esse form</h6>
+        <h3>Você selecionou: Pizza de Calabresa</h3>
+        <p>Quais opcionais você deseja?</p>
+        <h6>aqui, o nome de cada input vai junto com '[]', pois estou criando uma lista de itens</h6>
+        <input type="checkbox" disabled name="opcional[]" id="" value="queijo"> + queijo <br>
+        <input type="checkbox" name="opcional[]" id="" value="calabresa"> + calabresa <br>
+        <input type="checkbox" name="opcional[]" id="" value="cebola"> + cebola <br>
+        <input type="checkbox" name="opcional[]" id="" value="azeitona"> + azeitona <br>
+        <p>Borda recheada?</p>
+        <h6>aqui no radio, o name vai o mesmo, para ele selecionar 1, e não</h6>
+        <input type="radio" name="borda" id="" value="sim">Sim <br>
+        <input type="radio" name="borda" id="" value="nao">Não <br>
+        <p>Bebida</p>
+        <input type="radio" name="bebida" id="" value="suco">Suco <br>
+        <input type="radio" name="bebida" id="" value="refrigerante">Refrigerante <br>
+        <input type="radio" name="bebida" id="" value="agua">Água <br>
+        <input type="radio" name="bebida" id="" value="nenhum">Nenhum <br>
+
+        <button type="submit">Enviar pedido</button>
+
+    <li><a href="index.html">Voltar ao index</a></li>
+</body>
+</html> 
